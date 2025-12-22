@@ -16,9 +16,9 @@ function setImage() {
 
   if (score >= 100) {
     $circle.setAttribute("src", "./assets/3pic.webp");
-  } else if (score >= 80) {
+  } else if (score >= 70) {
     $circle.setAttribute("src", "./assets/4pic.webp");
-  } else if (score >= 50) {
+  } else if (score >= 30) {
     $circle.setAttribute("src", "./assets/2pic.webp");
   } else {
     $circle.setAttribute("src", "./assets/1pic.webp");
