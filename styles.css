@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #dda0dd;
+  background-color: #ddb8dd;
   user-select: none;
 }
 
@@ -72,6 +72,24 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-restart {
+  font-size: large;
+  height: 2rem;
+  width: 200px;
+  border: 0;
+  border-radius: 5%;
+  cursor: pointer;
+  background-color: #d493c8;
+  color: white;
 }
 
 @keyframes move-up {
